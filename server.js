@@ -1,6 +1,5 @@
 const express = require('express');
 const postRouter = require('./post-router.js');
-const data = require('./data/db.js');
 const cors = require('cors');
 
 const server = express();
